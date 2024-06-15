@@ -1,0 +1,128 @@
+/* reset.css */
+
+/* Remove default margin, padding, and set border box for all elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent line height, font size, and family for the document */
+html {
+    line-height: 1.15;
+    /* Adjust line height for better readability */
+    -webkit-text-size-adjust: 100%;
+    /* Prevent font scaling in landscape mode on mobile */
+}
+
+/* Remove default styling for blockquote, figure, h1, h2, h3, h4, h5, h6, p, pre */
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+    margin: 0;
+}
+
+/* Remove default styling for lists */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default styling for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default styling for tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set a consistent font for code elements */
+code,
+kbd,
+samp,
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Remove default styling for forms */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Remove default styling for buttons */
+button,
+[role="button"] {
+    cursor: pointer;
+}
+
+/* Remove default outline for focused elements */
+:focus {
+    outline: none;
+}
+
+/* Ensure media elements are displayed as block */
+img,
+audio,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+/* Ensure iframe elements are displayed as block */
+iframe {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+/* Remove default appearance for input types */
+[type="search"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Remove spinner arrows in number inputs */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove default appearance for button elements */
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Reset height to auto for progress elements */
+progress {
+    vertical-align: baseline;
+}
+
+/* Reset pointer cursor for disabled elements */
+[disabled] {
+    cursor: not-allowed;
+}

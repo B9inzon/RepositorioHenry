@@ -1,0 +1,89 @@
+body {
+    background-color: #00003d;
+    font-family: "Noto Sans JP";
+}
+
+
+.title {
+    font-size: 1.8em;
+    color: #08d8ec;
+    padding: 0.3em 0 0.8em 0;
+}
+
+.logo {
+    width: 10em;
+
+}
+
+.cards {
+    border: 2px solid transparent;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 6%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 1em #08d8ec;
+}
+
+.cards:hover {
+    background-color: rgb(205, 232, 255);
+}
+
+
+.text {
+    color: aliceblue;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.link-container>a {
+    color: aliceblue;
+}
+
+
+
+#titles {
+    width: 60vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-container>h3,
+p {
+    padding: 0.5em;
+}
+
+#titles>h2 {
+    font-size: 1em;
+}
+
+#cards-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
