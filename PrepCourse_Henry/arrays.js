@@ -46,11 +46,11 @@
 // })
 // console.log(masUno);
 
-// var arr = [1, 2, 3, 4, 5]
+var arr = [1, 2, 3, 4, 5]
 
-// for (var i = 0; i < arr.length; i++) {
-//     console.log(arr[i]);
-// };
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+};
 
 // function encontrarLetraP(string) {
 //     var letras = string.split('');
@@ -66,10 +66,10 @@
 // encontrarLetraP("JavaScript");
 // encontrarLetraP("Henry")
 
-var arr = [];
+// var arr = [];
 
-while (arr.length < 10) {
-    arr.push('BOOM');
-}
+// while (arr.length < 10) {
+//     arr.push('BOOM');
+// }
 
-console.log(arr);
+// console.log(arr);
